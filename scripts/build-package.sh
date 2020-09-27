@@ -3,7 +3,7 @@ set -e
 # Check out the source
 [[ ! -z "$BRANCH" ]] || BRANCH="master"
 echo "Checking out $BRANCH"
-git clone --recursive --branch $BRANCH --depth 1 https://github.com/moonlight-stream/moonlight-qt.git
+git clone --recursive --branch $BRANCH --depth 1 https://github.com/watchha/moonlight-qt.git
 cd moonlight-qt
 git log -1
 

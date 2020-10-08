@@ -1,7 +1,7 @@
 set -e
 
 # Check out the source
-[[ ! -z "$BRANCH" ]] || BRANCH="master"
+[[ ! -z "$BRANCH" ]] || BRANCH="french-translation"
 echo "Checking out $BRANCH"
 git clone --recursive --branch $BRANCH --depth 1 https://github.com/watchha/moonlight-qt.git
 cd moonlight-qt
